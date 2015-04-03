@@ -2,9 +2,10 @@
  * Created by keithfawcett on 4/2/15.
  */
 
-var age; //declaration
-age = 20; //definition
+var age = 20; // Number variable
 
-// storage container = value
+var isStudent = false; // Boolean Variable
 
-var yearOfBirth = 1994; //declaring and defining on the same line
+var firstName ="Keith";
+
+var phrase = 'I don\'t know \n You\'ll have to speak with the professor';
