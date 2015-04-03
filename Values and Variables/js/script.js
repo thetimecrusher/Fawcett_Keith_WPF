@@ -1,11 +1,13 @@
 /**
  * Created by keithfawcett on 4/2/15.
  */
+//Arrays
 
-var age = 20; // Number variable
+var muppetNames = ["Kermit", "Miss Piggy"]; //0,1,2,3
 
-var isStudent = false; // Boolean Variable
+muppetNames[1] = "Rizzo"; //change index #1 to Rizzo
+muppetNames[2] = "Fozzy";
 
-var firstName ="Keith";
+var num =1;
 
-var phrase = 'I don\'t know \n You\'ll have to speak with the professor';
+console.log(muppetNames[num])
