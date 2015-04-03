@@ -2,16 +2,14 @@
  * Created by keithfawcett on 4/3/15.
  */
 
-/*var firstName = "Keith";
-var lastName = "Fawcett";
-
-var fullName = firstName + " " + lastName;
-
-console.log(fullName);
+/*var stringVar = "6";
+var result = 7 + Number(stringVar);
+console.log(result);
     */
 
-var a = "6";
-var b = "7";
+var areaCode = 407;
+var firstPart = 203;
+var secPart = 4529;
 
-var result = a + b;
-console.log(result);
+var phoneNo = "(" + String(areaCode)+")" + String(firstPart) +"-" + String(secPart);
+console.log(phoneNo);
