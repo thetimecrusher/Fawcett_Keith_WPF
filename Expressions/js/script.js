@@ -2,7 +2,16 @@
  * Created by keithfawcett on 4/3/15.
  */
 
-var orangeBins =[234, 567, 883];
+/*var firstName = "Keith";
+var lastName = "Fawcett";
 
-var total = orangeBins[0] + orangeBins[1] +orangeBins[2];
-console.log(total);
+var fullName = firstName + " " + lastName;
+
+console.log(fullName);
+    */
+
+var a = "6";
+var b = "7";
+
+var result = a + b;
+console.log(result);
