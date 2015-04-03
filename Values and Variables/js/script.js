@@ -1,9 +1,10 @@
 /**
  * Created by keithfawcett on 4/2/15.
  */
-var yearBorn = 1995;
 
-console.log("hello World!");
-console.log(yearBorn);
+var age; //declaration
+age = 20; //definition
 
-alert(yearBorn);
+// storage container = value
+
+var yearOfBirth = 1994; //declaring and defining on the same line
