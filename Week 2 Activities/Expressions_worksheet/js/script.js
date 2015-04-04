@@ -13,20 +13,21 @@ console.log("Sparky is " + age  + " human years old which is " + dogAge + " in d
 */
 
 
+/*
 
 //Calculates how much pizza each person will get
 var numPizza = prompt("How many pizzas were ordered?"); //user inputs the number of pizzas ordered
 var slicesPerPizza = prompt("How many slices are the pizzas cut into?"); //user inputs the number of slices each pizza has
 var people = prompt("How many people are at the party?") //user inputs the number of people at the party
 
-/*
+
 
 var slicesPerPerson = numPizza * slicesPerPizza / people; // Calculates how many slices each person can have
 
 //Prints to the console the number of slices that each person at the party had
 console.log("Each person ate " + slicesPerPerson + " slices of pizza at the party.");
 
-*/
+
 
 
 
@@ -36,3 +37,14 @@ var sparkySlices = (numPizza * slicesPerPizza) % people; //calculates the remain
 //Prints to the console how many slices of pizza sparky gets
 console.log("Sparky gets " + sparkySlices + " slices of pizza");
 
+*/
+
+
+//Calculate the average amount spent on groceries
+var groceries = [130, 98, 103, 123, 114];  //Created my array of grocery prices in 5 weeks
+
+var total = groceries[0] + groceries[1] + groceries[2] + groceries[3] +groceries[4]; // totaling all of the weeks
+var average = total/5; // dividing the total by the number of weeks to get the average
+
+//printing to the console the total amount spent and the average per week
+console.log("You have spent a total of $" + total + " on groceries over 5 weeks. That is an average of $" +average+ " per week")
