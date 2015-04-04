@@ -12,12 +12,27 @@ console.log("Sparky is " + age  + " human years old which is " + dogAge + " in d
 
 */
 
+
+
 //Calculates how much pizza each person will get
-var NumPizza = prompt("How many pizzas were ordered?"); //user inputs the number of pizzas ordered
+var numPizza = prompt("How many pizzas were ordered?"); //user inputs the number of pizzas ordered
 var slicesPerPizza = prompt("How many slices are the pizzas cut into?"); //user inputs the number of slices each pizza has
 var people = prompt("How many people are at the party?") //user inputs the number of people at the party
 
-var slicesPerPerson = NumPizza * slicesPerPizza / people; // Calculates how many slices each person can have
+/*
+
+var slicesPerPerson = numPizza * slicesPerPizza / people; // Calculates how many slices each person can have
 
 //Prints to the console the number of slices that each person at the party had
 console.log("Each person ate " + slicesPerPerson + " slices of pizza at the party.");
+
+*/
+
+
+
+//calculates how many slices of pizza Sparky gets to eat
+var sparkySlices = (numPizza * slicesPerPizza) % people; //calculates the remaining slices if every one has whole pieces
+
+//Prints to the console how many slices of pizza sparky gets
+console.log("Sparky gets " + sparkySlices + " slices of pizza");
+
