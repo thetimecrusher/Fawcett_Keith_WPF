@@ -40,6 +40,8 @@ console.log("Sparky gets " + sparkySlices + " slices of pizza");
 */
 
 
+/*
+
 //Calculate the average amount spent on groceries
 var groceries = [130, 98, 103, 123, 114];  //Created my array of grocery prices in 5 weeks
 
@@ -48,3 +50,24 @@ var average = total/5; // dividing the total by the number of weeks to get the a
 
 //printing to the console the total amount spent and the average per week
 console.log("You have spent a total of $" + total + " on groceries over 5 weeks. That is an average of $" +average+ " per week")
+
+*/
+
+//Calculate the discounted price of an object with and without tax
+var originalPrice = prompt("What is the price of your item?"); //user inputs the price of their item
+var disPercent = prompt("What percent discount does your item have?"); //user inputs the discount percentage of their item
+var item = prompt("What is your item?"); //user inputs the name of the item
+var tax = prompt("What percent sales tax does it have?"); //user inputs the sales tax percentage of their item
+
+var withoutTax = originalPrice - (disPercent/100 * originalPrice); //calculates the price of the item before taxes
+var withTax = withoutTax - (tax/100 * withoutTax); //calculates the price of the item after taxes
+
+//prints to the console the name of the item, it's original price, the discount percentage, and the price of the item before and after taxes.
+console.log("Your "+ item + " was originally $" + originalPrice + ", but after a " + disPercent + "% discount, it is now $" +withoutTax+ " without tax, and $" +withTax+ " with tax.")
+
+
+
+
+
+
+
