@@ -17,3 +17,11 @@ var month = ["January", "February", "March", "April", "May", "June", "July", "Au
 var currentTime = new Date(); // creates Date object
 var thisYear = currentTime.getFullYear(); //gets the current year
 var thisMonth = currentTime.getMonth(); //gets the current month
+
+var monthsToPay = (paymentYear - thisYear)*12 + paymentMonth - thisMonth; //calculates the number of months till it's payed off
+
+var interestPerMonth = interest /100/12; //calculates what percent interest is owed per month
+
+var  equation = Math.pow((1+ Number(interestPerMonth)),monthsToPay); //calculating part of the formula for the next line, Math.pow is used to calculate to the power of
+
+var payment = price * interestPerMonth * equation / (equation -1); //calculates how much needs to be payed each month to get the loan payed off by the pay off date
