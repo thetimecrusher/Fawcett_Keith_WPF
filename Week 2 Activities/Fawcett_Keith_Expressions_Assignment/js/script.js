@@ -12,3 +12,8 @@ paymentMonth --; // changes the input from starting at 1 to starting at 0 like a
 
 //logs the months in an array
 var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+//Found this out online at http://stackoverflow.com/questions/6002254/get-the-current-year-in-javascript
+var currentTime = new Date(); // creates Date object
+var thisYear = currentTime.getFullYear(); //gets the current year
+var thisMonth = currentTime.getMonth(); //gets the current month
