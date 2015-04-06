@@ -30,3 +30,23 @@ alert("You have to pay $" + payment.toFixed(2) + " per month") //alert telling t
 
 //prints the final message into the console
 console.log("You have to pay $" + payment.toFixed(2) /*.toFixed(2) keeps the number to only 2 decimal places*/ + " per month for your $" + price + " " + item + " to be payed off by " + month[paymentMonth] + " of " + paymentYear + " if you have a loan at " + interest + "% interest rate.");
+
+/*
+
+Testing
+
+Item = car, price = 30000, interest = 8, paymentYear = 2030, paymentMonth = 4
+It equaled $286.70 which is correct.
+
+Item = car, price = 15000, interest = 3, paymentYear = 2020, paymentMonth = 6
+It equaled $261.47 which is correct.
+
+Item = motorcycle, price = 4000, interest = 14, paymentYear = 2018, paymentMonth = 2
+It equaled $143.20 which is correct.
+
+Item = house, price = 250000, interest = 4, paymentYear = 2035, paymentMonth = 1
+It equaled $1527.49 which is correct.
+
+Item = house, price = 1500000, interest = 2, paymentYear = 2037, paymentMonth = 1
+It equaled $7092.18 which is correct.
+ */
