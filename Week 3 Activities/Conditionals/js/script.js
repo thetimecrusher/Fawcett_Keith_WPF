@@ -2,13 +2,9 @@
  * Created by keithfawcett on 4/6/15.
  */
 
-var budget = 100;
-var iPhonePrice = 199.99;
-var wonLottery = true;
+var age = 6;
+var book;
 
-//if the price of the phone is less then our budget AND if our paycheck is over 300
-if(iPhonePrice < budget || wonLottery){
-    console.log("We can buy the phone!");
-}else{
-    console.log("No phone for you!");
-}
+//if the child is under 10, they get Green Eggs and Ham, otherwise they get The Time Machine
+book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
+console.log(book);
