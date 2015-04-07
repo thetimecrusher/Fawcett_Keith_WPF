@@ -41,10 +41,12 @@ if(milesLeftInTank >= 200){ //if they can drive 200 miles or more with their cur
 
     */
 
+/*
+
 //Grade Letter Calculator
 
 //defines the user input variable
-var grade = prompt("What was your final percent grade in your class?");
+var grade = prompt("What was your final percent grade in your class?"); // user inputs their final percent grade for the class
 
 //if else statement
 if(grade >= 95){ //if the students gets 95% or more
@@ -63,4 +65,23 @@ if(grade >= 95){ //if the students gets 95% or more
     console.log("You have a "+ grade + "%, which means you have earned a D in the class!")//prints to the console they got a D
 }else{//if the student gets anything else
     console.log("You have a "+ grade + "%, which means you have earned a F in the class!")//prints to the console they got a F
+}
+
+    */
+
+//Check the Login
+
+//defines the user input variables
+var username = prompt("What is your username?"); //user inputs their username
+var password = prompt("What is your password?"); //user inputs their password
+var correctUsername = prompt("What is your correct username?"); //user inputs their correct username
+var correctPassword = prompt("What is your correct password?"); //user inputs their correct password
+
+//if else statement
+if(username === correctUsername && password === correctPassword){ //if the user's username and correct username match and their password and the correct password match
+    console.log("Welcome, " +username + "!"); //print to the console the welcome and the users name
+}else if(username != correctUsername){ //if the username and the correct username do not match
+    console.log("User not found. Try again."); //print to the console User not found. Try again
+} else if(username === correctUsername && password != correctPassword){ //if the username and correct username match but the password and correct password do not match
+    console.log("Password does not match our records."); //print to the console Password does not match our records
 }
