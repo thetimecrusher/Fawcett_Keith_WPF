@@ -19,6 +19,7 @@ if (unit === "C"){ //If unit is C then do this
 
     */
 
+/*
 
 //Last Chance for Gas!
 
@@ -36,4 +37,30 @@ if(milesLeftInTank >= 200){ //if they can drive 200 miles or more with their cur
     console.log("Yes, you can make it without stopping for gas!") // prints to the console that they don't need gas
 }else{ // if they cant go 200 miles with the gas they have left
     console.log("You only have " + gallons + " gallons of gas in your tank, better get gas now while you can!") //prints to the console that they should get gas now
+}
+
+    */
+
+//Grade Letter Calculator
+
+//defines the user input variable
+var grade = prompt("What was your final percent grade in your class?");
+
+//if else statement
+if(grade >= 95){ //if the students gets 95% or more
+    console.log("You have a "+ grade + "%, which means you have earned a A+ in the class!") //prints to the console they got a A+
+}else if(grade < 95 && grade >= 90 ){ //if the student gets 90% or more but less then 95%
+    console.log("You have a "+ grade + "%, which means you have earned a A in the class!")//prints to the console they got a A
+}else if(grade < 90 && grade >= 85 ){//if the student gets 85% or more but less then 90%
+    console.log("You have a "+ grade + "%, which means you have earned a B+ in the class!")//prints to the console they got a B+
+}else if(grade < 85 && grade >= 80 ){//if the student gets 80% or more but less then 85%
+    console.log("You have a "+ grade + "%, which means you have earned a B in the class!")//prints to the console they got a B
+}else if(grade < 80 && grade >= 76 ){//if the student gets 76% or more but less then 80%
+    console.log("You have a "+ grade + "%, which means you have earned a C+ in the class!")//prints to the console they got a C+
+}else if(grade < 76&& grade >= 73 ){//if the student gets 73% or more but less then 76%
+    console.log("You have a "+ grade + "%, which means you have earned a C in the class!")//prints to the console they got a C
+}else if(grade < 73 && grade >= 70 ){//if the student gets 70% or more but less then 73%
+    console.log("You have a "+ grade + "%, which means you have earned a D in the class!")//prints to the console they got a D
+}else{//if the student gets anything else
+    console.log("You have a "+ grade + "%, which means you have earned a F in the class!")//prints to the console they got a F
 }
