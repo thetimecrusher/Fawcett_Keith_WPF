@@ -69,6 +69,10 @@ if(grade >= 95){ //if the students gets 95% or more
 
     */
 
+
+/*
+
+
 //Check the Login
 
 //defines the user input variables
@@ -84,4 +88,21 @@ if(username === correctUsername && password === correctPassword){ //if the user'
     console.log("User not found. Try again."); //print to the console User not found. Try again
 } else if(username === correctUsername && password != correctPassword){ //if the username and correct username match but the password and correct password do not match
     console.log("Password does not match our records."); //print to the console Password does not match our records
+}
+
+    */
+
+
+//Tire Pressure
+
+var tires = []; //creates tires array
+//defines the user input variable
+tires[0]= prompt("What is your front right tire pressure?"); //user inputs front right tire into the array
+tires[1]= prompt("What is your front left tire pressure?"); //user inputs front left tire into the array
+tires[2]= prompt("What is your back right tire pressure?"); //user inputs back right tire into the array
+tires[3]= prompt("What is your back left tire pressure?"); //user inputs back left tire into the array
+if(tires[0] === tires[1] && tires[2] === tires[3]){ //if front tires anr the same and the back tires are the same
+    console.log("The tires pass specs!"); //print The tires pass specs! to the console
+}else{ //if not
+    console.log("Get your tires checked out!") //print Get your tires checked out! to the console
 }
