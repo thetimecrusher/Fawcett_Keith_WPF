@@ -92,6 +92,7 @@ if(username === correctUsername && password === correctPassword){ //if the user'
 
     */
 
+/*
 
 //Tire Pressure
 
@@ -105,4 +106,20 @@ if(tires[0] === tires[1] && tires[2] === tires[3]){ //if front tires anr the sam
     console.log("The tires pass specs!"); //print The tires pass specs! to the console
 }else{ //if not
     console.log("Get your tires checked out!") //print Get your tires checked out! to the console
+}
+
+    */
+
+
+//Movie Ticket Price
+
+//define the user input variables
+var movieTime = prompt("What time is your movie?"); //user inputs the time their movie starts
+var age = prompt("How old are you?"); //user inputs their age
+
+//If then statement
+if(movieTime >= 3 && movieTime <= 5 || age >= 55 || age < 10){ //if the movie time is between 3 and 5 or they are 55 and older or they are under 10
+    console.log("The ticket price is $7.00");//print the ticket price is $7.00
+}else{ //if they don;t meet the first qualifications
+    console.log("The ticket price is $12.00");//print the ticket price is $12.00
 }
