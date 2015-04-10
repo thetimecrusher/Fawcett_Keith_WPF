@@ -27,3 +27,34 @@ if(time > "6" || time < "18") { //if the time is between 6 and 18
     time = prompt("Please chose a military hour between 6 and 18.") //ask the user to input a number between 6 and 18 again
 }
 
+
+var totalCost = 0; //created the totalCost variable set to 0
+
+
+//hole prices
+if(holes ==="9"){ //if the user is playing 9 holes
+    totalCost += 40; //add $40 to the totalCost
+}
+if(holes === "18"){ //if the user is playing 18 holes
+    totalCost += 60; //add $60 to the totalCost
+}
+
+//time of year multiplier
+if(month.toUpperCase() === "OCTOBER" || month.toUpperCase() === "NOVEMBER" || month.toUpperCase() === "DECEMBER" ||month.toUpperCase() === "JANUARY" || month.toUpperCase() === "FEBRUARY"){ //if the user is playing between october and february
+    totalCost /= 2; //cut the totalCost in half
+}else if(month.toUpperCase() === "MARCH" || month.toUpperCase() === "APRIL" || month.toUpperCase() === "MAY"){ //if the user is playing between march and may
+    totalCost *= 1 //keep the totalCost the same
+}else{ //otherwise if the user is playing between june and september
+    totalCost *= 2 //double the totalCost
+}
+
+(cart.toUpperCase() === "YES") ? cart = 15: cart = 0; //if the user is getting a cart make cart $15 otherwise make it 0
+
+(clubs.toUpperCase() === "YES") ? clubs = 15: clubs = 0; // if the user is renting clubs make the clubs $15 otherwise make it 0
+
+if(time >= 6 && time < 15){ //if the user is playing between 6am and 3pm
+    time = 15; //make time $15
+}else{ //otherwise
+    time = 0; //make time 0
+}
+
