@@ -58,3 +58,6 @@ if(time >= 6 && time < 15){ //if the user is playing between 6am and 3pm
     time = 0; //make time 0
 }
 
+totalCost = totalCost + cart + clubs + time; //totaling up all the items to the final totalCost
+
+console.log("Your total cost for golfing will be $" + totalCost); //prints to the console the total cost
