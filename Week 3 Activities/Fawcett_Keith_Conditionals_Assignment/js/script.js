@@ -22,7 +22,7 @@ if(month.toUpperCase() === "JANUARY" || month.toUpperCase() === "FEBRUARY" || mo
     month = prompt("Please enter a valid month."); //ask the user to input a valid month
 }
 var time = prompt("What hour would you like to play?\nPlease enter in military time between 6 and 18."); //user inputs the time they will be playing
-if(time > "6" || time < "18") { //if the time is between 6 and 18
+if(time >= "6" || time <= "18") { //if the time is between 6 and 18
 }else{ //do nothing otherwise
     time = prompt("Please chose a military hour between 6 and 18.") //ask the user to input a number between 6 and 18 again
 }
@@ -61,3 +61,23 @@ if(time >= 6 && time < 15){ //if the user is playing between 6am and 3pm
 totalCost = totalCost + cart + clubs + time; //totaling up all the items to the final totalCost
 
 console.log("Your total cost for golfing will be $" + totalCost); //prints to the console the total cost
+
+/*
+Testing
+
+Holes = 18, Cart = yes, clubs = yes, month = june, time = 9
+total = $165 which is correct.
+
+Holes = 9, Cart = no, clubs = yes, month = january, time = 17
+total = $35 which is correct.
+
+Holes = 18, Cart = no, clubs = no, month = april, time = 11
+total = $75 which is correct.
+
+Holes = 18, Cart = yes, clubs = no, month = september, time = 18
+total = $135 which is correct.
+
+Holes = 9, Cart = yes, clubs = yes, month = march, time = 6
+total = $85 which is correct.
+
+ */
