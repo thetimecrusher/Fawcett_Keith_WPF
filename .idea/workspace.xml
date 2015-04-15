@@ -36,10 +36,10 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Week 4 Activities/Functions/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18569463">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.24759285">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
-                <element signature="e#0#46#0" expanded="false" />
+                <element signature="n#!!doc;n#calcAreaF#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -512,10 +512,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week 4 Activities/Functions/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18569463">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.24759285">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
-            <element signature="e#0#46#0" expanded="false" />
+            <element signature="n#!!doc;n#calcAreaF#0" expanded="false" />
           </folding>
         </state>
       </provider>
