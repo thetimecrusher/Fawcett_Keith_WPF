@@ -10,3 +10,6 @@ var width = prompt("What is the width of your Rectangle?"); //user inputs the wi
 var height = prompt("What is the height of your Rectangle?"); //user inputs the height of their rectangle
 
 function calculateArea(w, h){ //makes the functions calculateArea
+
+    return w * h; //returns the calculation for the area
+}
