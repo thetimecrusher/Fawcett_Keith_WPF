@@ -4,4 +4,6 @@
    Function Worksheet
  */
 
-alert("Linked");
+//Calculate the Area of a Rectangle
+
+var width = prompt("What is the width of your Rectangle?"); //user inputs the width of their rectangle
