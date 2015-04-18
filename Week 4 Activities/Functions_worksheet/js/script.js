@@ -22,4 +22,6 @@ console.log("The area of the Rectangle is " + area); //prints to the console the
 
 var radius = prompt("What is the radius of your circle?"); //user inputs the radius of their circle
 
-function calculateCircumference(r){ //makes the function calculateCircumference
+function calculateCircumference(r) { //makes the function calculateCircumference
+    var circumference = 2 * 3.14159265358978 * r //makes the calculations and puts it into the variable circumference
+}
