@@ -26,3 +26,5 @@ function calculateCircumference(r) { //makes the function calculateCircumference
     var circumference = 2 * 3.14159265358978 * r //makes the calculations and puts it into the variable circumference
     return circumference; //sends out the circumference number out of the function
 }
+
+var answer = calculateCircumference(radius) // runs the function calculateCircumference and puts the output into the variable answer
