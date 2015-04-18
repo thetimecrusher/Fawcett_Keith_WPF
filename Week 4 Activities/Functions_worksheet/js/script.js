@@ -35,4 +35,7 @@ console.log("The circumference of the circle is " + answer); //prints to the con
 
 //Calculates the number of stings it takes to kill an animal
 
-var weight = prompt("What is the victim's weight in pounds?") //user inputs the victim's weight
+var weight = prompt("What is the victim's weight in pounds?"); //user inputs the victim's weight
+
+function numberOfStings(w) { //makes the functions numberOfStings
+}
