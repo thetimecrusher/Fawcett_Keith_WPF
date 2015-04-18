@@ -43,3 +43,5 @@ function numberOfStings(w) { //makes the functions numberOfStings
 }
 
 var total = numberOfStings(weight); //runs the function numberOfStings and puts the output into the variable total
+
+console.log("It takes " + total + " bee stings to kill this animal."); //prints to the console the number of stings it will take to kill the animal
