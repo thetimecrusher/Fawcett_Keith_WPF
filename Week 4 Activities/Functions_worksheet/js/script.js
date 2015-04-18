@@ -15,3 +15,9 @@ function calculateArea(w, h){ //makes the functions calculateArea
 }
 var area = calculateArea(width, height); //runs the function calculateArea and puts the output into the variable area
 console.log("The area of the Rectangle is " + area); //prints to the console the area of the rectangle
+
+
+
+//Calculate the Circumference of a Circle
+
+var radius = prompt("What is the radius of your circle?"); //user inputs the radius of their circle
