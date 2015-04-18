@@ -13,3 +13,4 @@ function calculateArea(w, h){ //makes the functions calculateArea
 
     return w * h; //returns the calculation for the area
 }
+var area = calculateArea(width, height); //runs the function calculateArea and puts the output into the variable area
