@@ -23,8 +23,7 @@ console.log("The area of the Rectangle is " + area); //prints to the console the
 var radius = prompt("What is the radius of your circle?"); //user inputs the radius of their circle
 
 function calculateCircumference(r) { //makes the function calculateCircumference
-    var circumference = 2 * 3.14159265358978 * r; //makes the calculations and puts it into the variable circumference
-    return circumference; //sends out the circumference number out of the function
+     return 2 * 3.14159265358978 * r; //makes the calculations and puts it into the variable circumference and sends out the circumference number out of the function
 }
 
 var answer = calculateCircumference(radius); // runs the function calculateCircumference and puts the output into the variable answer
@@ -38,8 +37,7 @@ console.log("The circumference of the circle is " + answer); //prints to the con
 var weight = prompt("What is the victim's weight in pounds?"); //user inputs the victim's weight
 
 function numberOfStings(w) { //makes the functions numberOfStings
-    var stings = w * 8.666666667; //makes the calculation and puts it into the variable stings
-    return stings; //sends out the stings number out of the function
+    return w * 8.666666667; //makes the calculation and puts it into the variable stings and sends the stings number out of the function
 }
 
 var total = numberOfStings(weight); //runs the function numberOfStings and puts the output into the variable total
