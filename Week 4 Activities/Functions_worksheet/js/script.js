@@ -30,3 +30,9 @@ function calculateCircumference(r) { //makes the function calculateCircumference
 var answer = calculateCircumference(radius); // runs the function calculateCircumference and puts the output into the variable answer
 
 console.log("The circumference of the circle is " + answer); //prints to the console the circumference of the circle
+
+
+
+//Calculates the number of stings it takes to kill an animal
+
+var weight = prompt("What is the victim's weight in pounds?") //user inputs the victim's weight
