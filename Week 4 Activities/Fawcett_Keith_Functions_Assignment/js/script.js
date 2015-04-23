@@ -93,3 +93,12 @@ var farPoint = function(h, d, f){
     //returns the farPoint calculation to the second decimal place back to the function
     return (((h * d) / (h - (d - f)))*0.0032808).toFixed(2);
 };
+
+//creates a variable finalHyperFocal and runs the hyperFocal function with the arguments of focalLength, aperture and coc
+var finalHyperFocal = hyperFocal(focalLength, aperture, coc);
+
+//creates a variable finalNearPoint and runs the nearPoint function with the arguments of finalHyperFocal, distanceInMM and focalLength
+var finalNearPoint = nearPoint(finalHyperFocal, distanceInMM, focalLength);
+
+//creates a variable finalFarPoint and runs the farPoint function with the arguments of finalHyperFocal, distanceInMM and focalLength
+var finalFarPoint = farPoint(finalHyperFocal, distanceInMM, focalLength);
