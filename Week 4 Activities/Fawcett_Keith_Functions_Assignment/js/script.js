@@ -121,3 +121,15 @@ if(finalFarPoint === "infinity"){
     //make totalDof equal the finalFarPoint minus the finalNearPoint to the second decimal point
     totalDof = (finalFarPoint - finalNearPoint).toFixed(2);
 }
+
+//prints the the console where their Hyper focal point is in feet
+console.log("Your Hyper Focal point is " + (finalHyperFocal*0.0032808).toFixed(2) + " ft");
+
+//prints the the console where their near point is in feet
+console.log("Your Near Point is " + finalNearPoint + " ft");
+
+//prints the the console where their far point is in feet
+console.log("Your Far Point is " + finalFarPoint + " ft");
+
+//prints the the console what their total depth of field is in feet
+console.log("Your Total Depth of Field is " + totalDof + " ft");
