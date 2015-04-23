@@ -72,3 +72,24 @@ while (isNaN(distance) === true || distance <= 0){
     //if the input is not a number greater then zero the question is asked again
     distance = prompt("I'm sorry that is not a number\nHow far away is your subject? (Feet)");
 }
+
+//created variable distanceInMM and changes the users input from feet into millimeters
+var distanceInMM = distance * 304.8;
+
+//creates a function called hyperFocal with three parameters
+function hyperFocal(f, a, c) {
+    //returns the hyperFocal calculation back to the function
+    return (f * f) / (a * c);
+}
+
+//creates a anonymous function called nearPoint with three parameters
+var nearPoint = function(h, d, f) {
+    //returns the nearPoint calculation to the second decimal place back to the function
+    return (((h * d) / (h + (d - f))) * 0.0032808).toFixed(2);
+};
+
+//creates a anonymous function called farPoint with three parameters
+var farPoint = function(h, d, f){
+    //returns the farPoint calculation to the second decimal place back to the function
+    return (((h * d) / (h - (d - f)))*0.0032808).toFixed(2);
+};
