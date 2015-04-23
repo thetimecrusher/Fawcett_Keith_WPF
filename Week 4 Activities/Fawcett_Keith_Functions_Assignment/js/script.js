@@ -7,6 +7,9 @@
 //created the variable coc or circle of confusion
 var coc;
 
+//created the variable totalDof stands for total depth of field
+var totalDof;
+
 //creates variable sensor and asks the user if their camera has a full frame or crop sensor
 var sensor = prompt("Does your camera have a full frame or a crop sensor?").toLowerCase().trim();
 
@@ -102,3 +105,19 @@ var finalNearPoint = nearPoint(finalHyperFocal, distanceInMM, focalLength);
 
 //creates a variable finalFarPoint and runs the farPoint function with the arguments of finalHyperFocal, distanceInMM and focalLength
 var finalFarPoint = farPoint(finalHyperFocal, distanceInMM, focalLength);
+
+//if the finalFarPoint is a negative number
+if(finalFarPoint <= 0){
+    //make finalFarPoint equal infinity
+    finalFarPoint = "infinity"
+}
+//if the finalFarPoint is equal to infinity
+if(finalFarPoint === "infinity"){
+    //make totalDof equal infinity
+    totalDof = "infinity";
+
+    //otherwise
+}else{
+    //make totalDof equal the finalFarPoint minus the finalNearPoint to the second decimal point
+    totalDof = (finalFarPoint - finalNearPoint).toFixed(2);
+}
