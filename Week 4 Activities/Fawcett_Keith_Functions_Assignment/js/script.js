@@ -48,3 +48,27 @@ if(sensor === "crop" || sensor === "crop sensor" || sensor === "cropsensor" || s
     //then it makes the coc equal 0.029
     coc = 0.029
 }
+
+//creates the variable aperture and asks the user to input what aperture they are using
+var aperture = prompt("What is your aperture? (between 1 and 32)");
+//checks to make sure the input is a number between 1 and 32
+while (isNaN(aperture) === true || aperture > 32 || aperture < 1) {
+    //if the input is not a number between 1 and 32 the question is asked again
+    aperture = prompt("I am sorry that is not a known aperture\nWhat is your aperture? (between 1 and 32)");
+}
+
+//creates the variable focalLength and asks the user to input what the focal Length they are using
+var focalLength = prompt("What is your Focal Length? (mm)");
+//checks to make sure the input is a number greater then zero
+while (isNaN(focalLength) === true || focalLength <= 0){
+    //if the input is not a number greater then zero the question is asked again
+    focalLength = prompt("I'm sorry that is not a proper answer\nWhat is your Focal Length? (mm)");
+}
+
+//creates the variable distanceInMM and asks the uer to input how far away their subject is (in feet)
+var distance = prompt("How far away is your subject? (Feet)");
+//checks to make sure the input is a number greater then zero
+while (isNaN(distance) === true || distance <= 0){
+    //if the input is not a number greater then zero the question is asked again
+    distance = prompt("I'm sorry that is not a number\nHow far away is your subject? (Feet)");
+}
