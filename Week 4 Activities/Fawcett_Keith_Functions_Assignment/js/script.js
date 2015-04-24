@@ -133,3 +133,52 @@ console.log("Your Far Point is " + finalFarPoint + " ft");
 
 //prints the the console what their total depth of field is in feet
 console.log("Your Total Depth of Field is " + totalDof + " ft");
+
+/*
+ Tests
+
+I input full frame, aperture of 1, Focal Length of 50, and a distance of 40 feet.
+The output was
+ Your Hyper Focal point is 282.83 ft
+ Your Near Point is 35.06 ft
+ Your Far Point is 46.56 ft
+ Your Total Depth of Field is 11.50 ft
+That is all correct
+
+
+ I input F, aperture of 32, Focal Length of 200, and a distance of 60 feet.
+ The output was
+ Your Hyper Focal point is 141.41 ft
+ Your Near Point is 42.26 ft
+ Your Far Point is 103.38 ft
+ Your Total Depth of Field is 61.12 ft
+ That is all correct
+
+
+ I input crop, canon, aperture of 1, Focal Length of 35, and a distance of 30 feet.
+ The output was
+ Your Hyper Focal point is 223.28 ft
+ Your Near Point is 36.46 ft
+ Your Far Point is 34.64 ft
+ Your Total Depth of Field is 8.18 ft
+ That is all correct
+
+
+ I input crop sensor, NiKOn, aperture of 3.5, Focal Length of 85, and a distance of 15 feet.
+ The output was
+ Your Hyper Focal point is 356.45 ft
+ Your Near Point is 14.40 ft
+ Your Far Point is 15.65 ft
+ Your Total Depth of Field is 1.25 ft
+ That is all correct
+
+
+ I input full, aperture of 22, Focal Length of 24, and a distance of 100 feet.
+ The output was
+ Your Hyper Focal point is 2.96 ft
+ Your Near Point is 2.88 ft
+ Your Far Point is infinity ft
+ Your Total Depth of Field is infinity ft
+ That is all correct
+
+ */
